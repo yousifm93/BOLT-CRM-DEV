@@ -79,6 +79,7 @@ const defaultItems = [
         expanded: true,
         subItems: [
             { name: 'Credentials', href: '/admin/credentials', icon: (props) => <LockKeyhole {...props} /> },
+            { name: 'Assistant', href: '/admin/assistant', icon: (props) => <Bot {...props} /> },
             { name: 'Deleted Items', href: '/admin/deleted-items', icon: (props) => <BookX {...props} /> },
         ]
     },
